@@ -84,6 +84,7 @@ public class AddNewCar extends TestBase{
 
         app.helperCar().openCarForm();
         app.helperCar().fillCarForm(car);
+        app.getHelperUser().pause(1000);
         app.helperCar().attachPhoto("C:/Users/User/Downloads/Automation/car1.jpeg");
         app.helperCar().submit();
 

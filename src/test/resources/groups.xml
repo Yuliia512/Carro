@@ -14,7 +14,7 @@
             <class name="RegistrationTests" />
             <class name="LoginTests"/>
             <class name="AddNewCar"/>
-            
+
         </classes>
     </test>
 

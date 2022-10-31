@@ -42,16 +42,20 @@ public class HelperUser extends HelperBase{
     public boolean isLogged() {
         return isElementPresent(By.xpath("//a[text()=' Logout ']"));
     }
+
     public void logout() {
+
         wd.findElement(By.xpath("//a[text()=' Logout ']")).click();
     }
+
     public void clickOkButton() {
         if(isElementPresent(By.xpath("//button[text()='Ok']")))
+            pause(1000);
             click(By.xpath("//button[text()='Ok']"));
     }
 
     public String  getErrorText() {
-        return wd.findElement(By.cssSelector("div.error>div")).getText();
+        return wd.findElement(By.cssSelector("div.error")).getText();
     }
     public boolean isYallaButtonNotActive() {
         boolean res =isElementPresent(By.cssSelector("button[disabled]"));
@@ -61,7 +65,7 @@ public class HelperUser extends HelperBase{
     public String getTitleMessage(){
         WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
         wait.until((ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container")))));
-        //pause(2000);
+        pause(2000);
         return wd.findElement(By.cssSelector("div.dialog-container>h1")).getText();
     }
 
@@ -94,6 +98,14 @@ click(By.xpath("//a[text()='Sign up']"));
         Actions actions = new Actions(wd);
         actions.moveToElement(label,-xOffSet,0).click().release().perform();
 
+
+    }
+
+    public void login(User user) {
+        openLoginFormHeader();
+        fillLoginForm(user);
+        submit();
+        clickOkButton();
 
     }
 }

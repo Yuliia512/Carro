@@ -1,0 +1,45 @@
+11:35:58.046 INFO  manager.ApplicationManager - All tests start in  Firefox
+11:36:04.130 INFO  TestBase - Start test with name:registrationSuccess
+11:36:04.132 INFO  manager.ListenerWD - Before find elements By ----> By.xpath: //a[text()=' Logout ']
+11:36:09.161 INFO  manager.ListenerWD - After find elements By ----> By.xpath: //a[text()=' Logout ']
+11:36:09.163 INFO  manager.ListenerWD - List size ---0
+11:36:09.167 INFO  manager.ListenerWD - Before find element By ----> By.xpath: //a[text()='Sign up']
+11:36:09.185 INFO  manager.ListenerWD - After find element By ----> By.xpath: //a[text()='Sign up']
+11:36:10.322 INFO  manager.ListenerWD - Before find element By ----> By.id: name
+11:36:10.353 INFO  manager.ListenerWD - After find element By ----> By.id: name
+11:36:10.626 INFO  manager.ListenerWD - Before find element By ----> By.id: lastName
+11:36:10.641 INFO  manager.ListenerWD - After find element By ----> By.id: lastName
+11:36:10.915 INFO  manager.ListenerWD - Before find element By ----> By.id: email
+11:36:10.929 INFO  manager.ListenerWD - After find element By ----> By.id: email
+11:36:11.200 INFO  manager.ListenerWD - Before find element By ----> By.id: password
+11:36:11.215 INFO  manager.ListenerWD - After find element By ----> By.id: password
+11:36:11.484 INFO  manager.ListenerWD - Before find element By ----> By.cssSelector: label[for='terms-of-use']
+11:36:11.497 INFO  manager.ListenerWD - After find element By ----> By.cssSelector: label[for='terms-of-use']
+11:36:11.655 INFO  manager.ListenerWD - Before find element By ----> By.cssSelector: button[type='submit']
+11:36:11.673 INFO  manager.ListenerWD - After find element By ----> By.cssSelector: button[type='submit']
+11:36:11.708 INFO  manager.ListenerWD - Before find element By ----> By.cssSelector: button[type='submit']
+11:36:11.721 INFO  manager.ListenerWD - After find element By ----> By.cssSelector: button[type='submit']
+11:36:11.956 INFO  manager.ListenerWD - Before find element By ----> By.cssSelector: div.dialog-container
+11:36:12.260 INFO  manager.ListenerWD - After find element By ----> By.cssSelector: div.dialog-container
+11:36:14.504 INFO  manager.ListenerWD - Before find element By ----> By.cssSelector: div.dialog-container>h1
+11:36:14.528 INFO  manager.ListenerWD - After find element By ----> By.cssSelector: div.dialog-container>h1
+11:36:14.549 INFO  TestBase - Start test with name:loginSuccess
+11:36:14.550 INFO  TestBase - Start checking authorisation
+11:36:14.550 INFO  manager.ListenerWD - Before find elements By ----> By.xpath: //a[text()=' Logout ']
+11:36:14.562 INFO  manager.ListenerWD - After find elements By ----> By.xpath: //a[text()=' Logout ']
+11:36:14.562 INFO  manager.ListenerWD - List size ---1
+11:36:15.570 INFO  manager.ListenerWD - Before find element By ----> By.xpath: //a[text()=' Logout ']
+11:36:15.586 INFO  manager.ListenerWD - After find element By ----> By.xpath: //a[text()=' Logout ']
+11:36:15.600 INFO  manager.ListenerWD - We have a 'PROBLEM'
+11:36:15.601 INFO  manager.ListenerWD - The name of error method ---click
+11:36:15.603 INFO  manager.ListenerWD - Describe of error ---org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=undefined"> is not clickable at point (895,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-MOSO9MHA', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4871191b-fc2f-4d5a-9fff-a0f9c88c1448, clickElement {id=fcbdfc48-7d44-4cfc-9b40-d884d77be926}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:processID: 2688, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (4871191b-fc2f-4d5a-9fff-a0f9c88c1448)] -> xpath: //a[text()=' Logout ']]
+Session ID: 4871191b-fc2f-4d5a-9fff-a0f9c88c1448
+11:36:15.604 INFO  manager.ListenerWD - **********
+11:36:15.604 INFO  manager.ListenerWD - [[FirefoxDriver: firefox on WINDOWS (4871191b-fc2f-4d5a-9fff-a0f9c88c1448)] -> xpath: //a[text()=' Logout ']]
+11:36:15.609 INFO  manager.ListenerWD - Screen with error is :1332  src/test/screenshots/screen1332.png

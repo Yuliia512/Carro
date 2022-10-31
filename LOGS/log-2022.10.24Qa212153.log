@@ -1,0 +1,46 @@
+21:21:55.569 INFO  manager.ApplicationManager - Chrome driver opened
+21:22:01.332 INFO  TestBase - Start test with name:registrationSuccess
+21:22:01.334 INFO  manager.ListenerWD - Before find elements By ----> By.xpath: //a[text()=' Logout ']
+21:22:06.371 INFO  manager.ListenerWD - After find elements By ----> By.xpath: //a[text()=' Logout ']
+21:22:06.373 INFO  manager.ListenerWD - List size ---0
+21:22:06.379 INFO  manager.ListenerWD - Before find element By ----> By.xpath: //a[text()='Sign up']
+21:22:06.404 INFO  manager.ListenerWD - After find element By ----> By.xpath: //a[text()='Sign up']
+21:22:06.766 INFO  manager.ListenerWD - Before find element By ----> By.id: name
+21:22:06.800 INFO  manager.ListenerWD - After find element By ----> By.id: name
+21:22:06.904 INFO  manager.ListenerWD - Before find element By ----> By.id: lastName
+21:22:06.930 INFO  manager.ListenerWD - After find element By ----> By.id: lastName
+21:22:07.025 INFO  manager.ListenerWD - Before find element By ----> By.id: email
+21:22:07.046 INFO  manager.ListenerWD - After find element By ----> By.id: email
+21:22:07.173 INFO  manager.ListenerWD - Before find element By ----> By.id: password
+21:22:07.198 INFO  manager.ListenerWD - After find element By ----> By.id: password
+21:22:07.316 INFO  manager.ListenerWD - Before find element By ----> By.cssSelector: label[for='terms-of-use']
+21:22:07.344 INFO  manager.ListenerWD - After find element By ----> By.cssSelector: label[for='terms-of-use']
+21:22:07.509 INFO  manager.ListenerWD - Before find element By ----> By.cssSelector: button[type='submit']
+21:22:07.532 INFO  manager.ListenerWD - After find element By ----> By.cssSelector: button[type='submit']
+21:22:07.585 INFO  manager.ListenerWD - Before find element By ----> By.cssSelector: button[type='submit']
+21:22:07.607 INFO  manager.ListenerWD - After find element By ----> By.cssSelector: button[type='submit']
+21:22:07.663 INFO  manager.ListenerWD - Before find element By ----> By.cssSelector: div.dialog-container
+21:22:08.136 INFO  manager.ListenerWD - After find element By ----> By.cssSelector: div.dialog-container
+21:22:10.678 INFO  manager.ListenerWD - Before find element By ----> By.cssSelector: div.dialog-container>h1
+21:22:10.718 INFO  manager.ListenerWD - After find element By ----> By.cssSelector: div.dialog-container>h1
+21:22:10.738 INFO  TestBase - Start test with name:loginSuccessModels
+21:22:10.739 INFO  TestBase - Start checking authorisation
+21:22:10.739 INFO  manager.ListenerWD - Before find elements By ----> By.xpath: //a[text()=' Logout ']
+21:22:10.753 INFO  manager.ListenerWD - After find elements By ----> By.xpath: //a[text()=' Logout ']
+21:22:10.753 INFO  manager.ListenerWD - List size ---1
+21:22:10.753 INFO  manager.ListenerWD - Before find element By ----> By.xpath: //a[text()=' Logout ']
+21:22:10.770 INFO  manager.ListenerWD - After find element By ----> By.xpath: //a[text()=' Logout ']
+21:22:15.798 INFO  manager.ListenerWD - We have a 'PROBLEM'
+21:22:15.798 INFO  manager.ListenerWD - The name of error method ---click
+21:22:15.801 INFO  manager.ListenerWD - Describe of error ---org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-MOSO9MHA', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8696173f2d97f3aeac6dea8b779a1ef, clickElement {id=2512c167-b0b7-4df1-b583-68e173e10ef5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53324/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d8696173f2d97f3aeac6dea8b779a1ef)] -> xpath: //a[text()=' Logout ']]
+Session ID: d8696173f2d97f3aeac6dea8b779a1ef
+21:22:15.802 INFO  manager.ListenerWD - **********
+21:22:15.802 INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (d8696173f2d97f3aeac6dea8b779a1ef)] -> xpath: //a[text()=' Logout ']]
+21:22:15.809 INFO  manager.ListenerWD - Screen with error is :1362  src/test/screenshots/screen1362.png
